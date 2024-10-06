@@ -1,0 +1,31 @@
+{
+  "recommendations": [
+    // Themes & Icons
+    "antfu.icons-carbon",
+    "antfu.theme-vitesse",
+    "miguelsolorio.symbols",
+    
+    // Needs
+    "antfu.vite",
+    "Vue.volar",
+    "dbaeumer.vscode-eslint",
+    "charliermarsh.ruff",
+    "astro-build.astro-vscode",
+    "usernamehw.errorlens",
+    "streetsidesoftware.code-spell-checker",
+    "aaron-bond.better-comments",
+    "drcika.apc-extension",
+    "tonybaloney.vscode-pets",
+    
+    // Useful
+    "antfu.iconify",
+    "antfu.browse-lite",
+    "eamodio.gitlens",
+    "EditorConfig.EditorConfig",
+    "github.vscode-github-actions",
+    "GitHub.vscode-pull-request-github",
+    "johnsoncodehk.vscode-tsconfig-helper",
+    "mpontus.tab-cycle",
+    "naumovs.color-highlight",
+  ]
+}
