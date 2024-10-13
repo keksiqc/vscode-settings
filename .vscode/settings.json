@@ -1,10 +1,8 @@
 {
   // ========== Visuals ==========
-  "editor.fontFamily": "Monaspace Argon, JetBrainsMono Nerd Font, consolas",
-  "editor.fontLigatures": "'calt', 'ss01', 'ss02', 'ss03', 'ss04', 'ss05', 'ss06', 'ss07', 'ss08', 'ss09', 'liga'",
-  // "editor.fontSize": 13,
-  // "editor.fontFamily": "CaskaydiaCove Nerd Font, JetBrainsMono Nerd Font, consolas",
-  // "editor.fontLigatures": true,
+  "editor.fontFamily": "Dank Mono Semibold, JetBrainsMono Nerd Font, consolas",
+  "editor.fontLigatures": true,
+  "editor.fontSize": 16,
   "editor.cursorBlinking": "phase",
   "editor.cursorSmoothCaretAnimation": "on",
   "editor.renderWhitespace": "boundary",
@@ -28,7 +26,7 @@
 
   // ========== Editor ==========
   "debug.onTaskErrors": "debugAnyway",
-  "diffEditor.ignoreTrimWhitespace": false,
+  "diffEditor.ignoreTrimWhitespace": true,
   "editor.wordSeparators": "`~!@#$%^&*()-=+[{]}\\|;:'\",.<>/?",
   "editor.find.addExtraSpaceOnTop": false,
   "editor.inlineSuggest.enabled": true,
@@ -102,6 +100,14 @@
   // ========== Extension configs ==========
   // Cursor settings
   "cursor.cpp.enablePartialAccepts": true,
+
+  // Copilot
+  "github.copilot.enable": {
+    "*": false,
+    "plaintext": false,
+    "markdown": false,
+    "scminput": false
+  },
 
   "emmet.showSuggestionsAsSnippets": true,
   "emmet.triggerExpansionOnTab": false,
@@ -191,16 +197,17 @@
   "prettier.semi": false,
   "prettier.singleQuote": true,
 
-  // Style settings for better customization
-  "apc.stylesheet": {
-    ".mtk3, .mtk4, .mtki": {
-      "font-family": "Monaspace Radon"
-    },
-    ".ghost-text-decoration, .ghost-text-decoration-preview, .ghost-text": {
-      "font-family": "Monaspace Krypton",
-      "font-weight": "200"
-    }
-  },
+  // Style settings for Monaspace Fonts
+  // https://github.com/githubnext/monaspace
+  // "apc.stylesheet": {
+  //   ".mtk3, .mtk4, .mtki": {
+  //     "font-family": "Monaspace Radon"
+  //   },
+  //   ".ghost-text-decoration, .ghost-text-decoration-preview, .ghost-text": {
+  //     "font-family": "Monaspace Krypton",
+  //     "font-weight": "200"
+  //   }
+  // },
 
   // ========== Language configs ==========
   "[python]": {
@@ -223,6 +230,11 @@
     "editor.tabSize": 2
   },
   "[json]": {
+    "editor.defaultFormatter": "biomejs.biome",
+    "editor.tabSize": 2
+  },
+  "[jsonc]": {
+    "editor.defaultFormatter": "biomejs.biome",
     "editor.tabSize": 2
   },
 
@@ -250,5 +262,5 @@
     "pyproject.toml": "poetry.lock, requirements.txt, requirements.lock, requirements-dev.lock, Pipfile, Pipfile.lock, setup.py, .pre-commit-config.yaml, .python-version",
     "Dockerfile": "docker-compose.yml, docker-compose.yaml, docker-compose.dev.yml, docker-compose.prod.yml, docker-compose.test.yml, .dockerignore",
     "README*": "authors, backers*, changelog*, citation*, code_of_conduct*, codeowners, contributing*, contributors, copying, credits, governance.md, history.md, LICENSE*, maintainers, readme*, security.md, sponsors*"
-  }
+  },
 }
