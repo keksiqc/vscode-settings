@@ -114,7 +114,7 @@
   "errorLens.enabledDiagnosticLevels": ["warning", "error"],
   "errorLens.excludeBySource": ["cSpell", "Grammarly", "eslint"],
 
-  // ESLint config: https://github.com/antfu/eslint-config
+  // ESLint config: https://github.com/keksiqc/eslint-config
   "eslint.codeAction.showDocumentation": {
     "enable": true
   },
