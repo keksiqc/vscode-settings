@@ -277,11 +277,9 @@
 		"editor.tabSize": 2
 	},
 	"[json]": {
-		"editor.defaultFormatter": "biomejs.biome",
 		"editor.tabSize": 2
 	},
 	"[jsonc]": {
-		"editor.defaultFormatter": "biomejs.biome",
 		"editor.tabSize": 2
 	},
 
