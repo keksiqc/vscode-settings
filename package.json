@@ -1,7 +1,7 @@
 {
 	"name": "vscode-settings",
 	"version": "1.0.0",
-	"description": "",
+	"description": "My VS Code settings and extensions",
 	"scripts": {
 		"format": "biome format --write ."
 	},
