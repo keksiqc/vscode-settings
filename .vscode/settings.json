@@ -43,7 +43,7 @@
 	"editor.stickyScroll.enabled": true,
 	"editor.hover.sticky": true,
 	"editor.formatOnSave": true,
-	"editor.defaultFormatter": "esbenp.prettier-vscode",
+	"editor.defaultFormatter": "biomejs.biome",
 	"editor.codeActionsOnSave": {
 		"source.fixAll": "always",
 		"source.organizeImports": "always"
@@ -144,12 +144,6 @@
 	// Iconify settings
 	"iconify.annotations": true,
 	"iconify.inplace": true,
-
-	// Prettier for manual formating
-	"prettier.enable": false,
-	"prettier.printWidth": 200,
-	"prettier.semi": false,
-	"prettier.singleQuote": true,
 
 	// File Nesting settings
 	"fileNestingUpdater.autoUpdate": true,
