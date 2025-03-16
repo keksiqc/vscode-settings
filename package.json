@@ -3,7 +3,7 @@
 	"version": "1.0.0",
 	"description": "My VS Code settings and extensions",
 	"scripts": {
-		"format": "biome format --write ."
+		"check": "biome check --write ."
 	},
 	"keywords": [],
 	"author": "Keksi",
