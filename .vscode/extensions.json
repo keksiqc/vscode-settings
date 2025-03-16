@@ -1,32 +1,36 @@
 {
 	"recommendations": [
-		// Themes & Icons
+		// Themes & Appearance
 		"antfu.icons-carbon",
 		"antfu.theme-vitesse",
 		"miguelsolorio.symbols",
+		"naumovs.color-highlight",
+		"drcika.apc-extension",
 
-		// Needs
-		"antfu.vite",
-		"Vue.volar",
+		// Code Quality & Formatting
+		"biomejs.biome",
 		"dbaeumer.vscode-eslint",
 		"charliermarsh.ruff",
-		"astro-build.astro-vscode",
+		"EditorConfig.EditorConfig",
 		"usernamehw.errorlens",
 		"streetsidesoftware.code-spell-checker",
 		"aaron-bond.better-comments",
-		"drcika.apc-extension",
-		"tonybaloney.vscode-pets",
-		"antfu.file-nesting",
 
-		// Useful
+		// Development Tools
+		"antfu.file-nesting",
+		"antfu.vite",
+		"Vue.volar",
+		"astro-build.astro-vscode",
 		"antfu.iconify",
-		"antfu.browse-lite",
-		"eamodio.gitlens",
-		"EditorConfig.EditorConfig",
-		"github.vscode-github-actions",
-		"GitHub.vscode-pull-request-github",
 		"johnsoncodehk.vscode-tsconfig-helper",
 		"mpontus.tab-cycle",
-		"naumovs.color-highlight"
+
+		// Git & GitHub
+		"eamodio.gitlens",
+		"github.vscode-github-actions",
+		"GitHub.vscode-pull-request-github",
+
+		// Fun
+		"tonybaloney.vscode-pets"
 	]
 }
