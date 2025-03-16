@@ -116,7 +116,7 @@
 	"window.menuBarVisibility": "toggle",
 	"window.commandCenter": false,
 	"extensions.autoUpdate": "onlyEnabledExtensions",
-	
+
 	// ========== Extension configs ==========
 	// Copilot
 	"github.copilot.enable": {
@@ -163,15 +163,8 @@
 	"emmet.triggerExpansionOnTab": false,
 
 	// Error Lens settings
-	"errorLens.enabledDiagnosticLevels": [
-		"warning",
-		"error"
-	],
-	"errorLens.excludeBySource": [
-		"cSpell",
-		"Grammarly",
-		"eslint"
-	],
+	"errorLens.enabledDiagnosticLevels": ["warning", "error"],
+	"errorLens.excludeBySource": ["cSpell", "Grammarly", "eslint"],
 
 	// GitHub extensions
 	"githubIssues.workingIssueFormatScm": "#${issueNumberLabel}",
@@ -226,36 +219,36 @@
 	},
 
 	// ESLint config: https://github.com/antfu/eslint-config
-  "eslint.codeAction.showDocumentation": {
-    "enable": true
-  },
-  "eslint.quiet": true,
-  // Silent the stylistic rules in you IDE, but still auto fix them
-  "eslint.rules.customizations": [
-    { "rule": "style/*", "severity": "off" },
-    { "rule": "format/*", "severity": "off" },
-    { "rule": "*-indent", "severity": "off" },
-    { "rule": "*-spacing", "severity": "off" },
-    { "rule": "*-spaces", "severity": "off" },
-    { "rule": "*-order", "severity": "off" },
-    { "rule": "*-dangle", "severity": "off" },
-    { "rule": "*-newline", "severity": "off" },
-    { "rule": "*quotes", "severity": "off" },
-    { "rule": "*semi", "severity": "off" }
-  ],
-  "eslint.validate": [
-    "javascript",
-    "javascriptreact",
-    "typescript",
-    "typescriptreact",
-    "vue",
-    "html",
-    "markdown",
-    "json",
-    "jsonc",
-    "yaml",
-    "toml"
-  ],
+	"eslint.codeAction.showDocumentation": {
+		"enable": true
+	},
+	"eslint.quiet": true,
+	// Silent the stylistic rules in you IDE, but still auto fix them
+	"eslint.rules.customizations": [
+		{ "rule": "style/*", "severity": "off" },
+		{ "rule": "format/*", "severity": "off" },
+		{ "rule": "*-indent", "severity": "off" },
+		{ "rule": "*-spacing", "severity": "off" },
+		{ "rule": "*-spaces", "severity": "off" },
+		{ "rule": "*-order", "severity": "off" },
+		{ "rule": "*-dangle", "severity": "off" },
+		{ "rule": "*-newline", "severity": "off" },
+		{ "rule": "*quotes", "severity": "off" },
+		{ "rule": "*semi", "severity": "off" }
+	],
+	"eslint.validate": [
+		"javascript",
+		"javascriptreact",
+		"typescript",
+		"typescriptreact",
+		"vue",
+		"html",
+		"markdown",
+		"json",
+		"jsonc",
+		"yaml",
+		"toml"
+	],
 
 	// Custom Style settings
 	// https://github.com/githubnext/monaspace
@@ -391,5 +384,5 @@
 		"*.w": "$(capture).*.w, I$(capture).w",
 		"*.wat": "$(capture).wasm",
 		"*.xaml": "$(capture).xaml.cs"
-	},
+	}
 }
